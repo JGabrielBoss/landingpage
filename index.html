@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Peguei as fontes no site cndjs font-awesome: https://cdnjs.com/libraries/font-awesome
+                                                     https://fontawesome.com/                 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="stylesheet" href="src/styles/header.css">
+    <!--Titolo que fica na Guia do site-->
+    <title>Aliance Performance</title>
+</head>
+<body>
+    <!--Começo do Header-->
+    <header>
+        <!--Aqui é a nossa Navbar-->
+        <nav id="navbar">
+            <i class="fa-solid fa-wrench" id="nav_logo">Aliance Performance </i>
+
+            <!--Aqui é uma lista dos meus itens da NavBar-->
+            <ul id="nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#itens">Peças</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects">Projetos</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Peça Aqui!
+            </button>
+
+            <!--Botão que vai aparecer somente no mobile-->
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+        <!--Aqui termina a NavBar-->
+
+        <!--Aqui é a nossa Navbar MOBILE-->
+        <!--Lista que só vai aparecer na versão mobile-->
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#itens">Peças</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects">Projetos</a>
+                </li>
+            </ul>
+            <button class="btn-default">
+                Peça Aqui!
+            </button>
+        </div>
+        <!--Aqui termina a NavBar MOBILE-->
+    </header>
+    <!--Final dod Header-->
+</body>
+</html>
