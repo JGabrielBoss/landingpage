@@ -1,27 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--Peguei as fontes no site cndjs font-awesome: https://cdnjs.com/libraries/font-awesome
                                                      https://fontawesome.com/                 -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Importando os styles CSS-->
     <link rel="stylesheet" href="src/styles/styles.css">
     <link rel="stylesheet" href="src/styles/header.css">
+    <link rel="stylesheet" href="src/styles/home.css">
+
+    <!--JQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <!--Titolo que fica na Guia do site-->
-    <title>Aliance Performance</title>
+    <title>Alliance Performance</title>
 </head>
+
 <body>
     <!--Começo do Header-->
     <header>
         <!--Aqui é a nossa Navbar-->
         <nav id="navbar">
-            <i class="fa-solid fa-wrench" id="nav_logo">Aliance Performance </i>
+            <p id="nav_logo"> Alliance Performance </p>
 
             <!--Aqui é uma lista dos meus itens da NavBar-->
             <ul id="nav_list">
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a href="#home">Início</a>
                 </li>
                 <li class="nav-item">
@@ -33,7 +46,7 @@
             </ul>
 
             <button class="btn-default">
-                Peça Aqui!
+                Peça Aqui
             </button>
 
             <!--Botão que vai aparecer somente no mobile-->
@@ -58,11 +71,68 @@
                 </li>
             </ul>
             <button class="btn-default">
-                Peça Aqui!
+                Peça Aqui
             </button>
         </div>
         <!--Aqui termina a NavBar MOBILE-->
     </header>
     <!--Final dod Header-->
+
+    <!--Meu conteúdo principal-->
+    <main id="content">
+        <section id="home">
+
+            <!--Essa div é uma forma geometrica que fica atras do banner-->
+            <div class="shape"></div>
+
+            <!--Essa div é a Call to Action-->
+            <div id="cta">
+                <!--Titulo-->
+                <h1 class="title">
+                    DNA de pista na
+                    <span>RUA</span>
+                </h1>
+                <!--Descrição-->
+                <p class="description">
+                    Alliance Performance oficina preparadora de nacionais e importados
+                </p>
+                <!--Botões-->
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">Principais projetos</a>
+                    <a href="tel:+12999996677" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (12) 99999-6677
+                    </a>
+                </div>
+                <!--Social Media-->
+                <div class="social-media-buttons">
+                    <a href="#">
+                        <i class="fa-brands fa-whatsapp">
+                        </i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram">
+                        </i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook">
+                        </i>
+                    </a>
+                </div>
+
+            </div>
+            
+            <!--Esse é o banner do meu site-->
+            <div id="banner">
+                <img src="src/images/Logo 5.png" alt="">
+            </div>
+        </section>
+    </main>
+
+    <!--Importando o Javascript-->
+    <script src="src/javascript/script.js"></script>
 </body>
+
 </html>
