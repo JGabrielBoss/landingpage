@@ -14,6 +14,7 @@
 
 #cta .title{
     font-size: 4rem;
+    font-weight: bold;
     color: #1d1d1d;
 }
 #cta .title span{
@@ -22,7 +23,7 @@
 }
 
 #cta .description {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 #cta_buttons {
@@ -49,28 +50,32 @@
     box-shadow: none;
 }
 
+#banner_mobile {
+    display: none;
+}
+
 #banner {
     display: flex;
     align-items: start;
     justify-content: end;
-    width: 56%;
+    width: 60%;
     z-index: 2;
 }
 
 #banner img {
     display: flex;
-    align-items: start;
+    align-items: center;
     justify-content: end;
-    height: 80%;
-    width: 60%;
+    height: 85%;
+    width: 55%;
 }
 
 .shape {
-    background-color: white;
-    width: 55%;
-    height: 100%;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 85%;
     position: absolute;
-    border-radius: 40% 30% 0% 20%;
+    border-radius: 20% 0% 0% 20%;
     top: 0;
     right: 0;
     z-index: 1;
@@ -86,6 +91,17 @@
     #banner img,
     #home .shape {
         display: none;
+    }
+
+    #banner_mobile,
+    #banner_mobile img {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        height: 80%;
+        text-align: center;
+        margin: auto;
+        justify-content: center;
     }
 
     #cta {
