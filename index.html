@@ -13,8 +13,6 @@
 
     <!--Importando os styles CSS-->
     <link rel="stylesheet" href="src/styles/styles.css">
-    <link rel="stylesheet" href="src/styles/header.css">
-    <link rel="stylesheet" href="src/styles/home.css">
 
     <!--JQuery-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
@@ -38,7 +36,7 @@
                     <a href="#home">Início</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#itens">Serviços</a>
+                    <a href="#menu">Serviços</a>
                 </li>
                 <li class="nav-item">
                     <a href="#projects">Projetos</a>
@@ -135,7 +133,7 @@
         </section>
 
         <!--Aqui é a segunda parte do site-->
-        <section id="Serviços">
+        <section id="menu">
             <h2 class="section-title">Serviços</h2>
             <h3 class="section-subtitle">Serviços feitos na Alliance</h3>
 
@@ -150,12 +148,68 @@
                     </h3>
 
                     <span class="service-description">
-                        A Remap nada mais é do que uma alteração no software responsável pela administração do motor do
-                        veículo
+                        Alteração no software responsável pela administração do motor
                     </span>
 
                     <div class="service-price">
-                        <h4>R$ 1.900,00</h4>
+                        <h4>R$ 2.500,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="service">
+                    <img src="src/images/service2.png" class="service-image" alt="">
+
+                    <h3 class="service-title">
+                        Preparação
+                    </h3>
+
+                    <span class="service-description">
+                        Trabalho completo da mecânica do seu projeto
+                    </span>
+
+                    <div class="service-price">
+                        <h4>Valor à combinar</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="service">
+                    <img src="src/images/service3.png" class="service-image" alt="">
+
+                    <h3 class="service-title">
+                        Manuntenção
+                    </h3>
+
+                    <span class="service-description">
+                        Diagnostico e manuntenção detalhada do seu projeto
+                    </span>
+
+                    <div class="service-price">
+                        <h4>Valor à combinar</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="service">
+                    <img src="src/images/service4.png" class="service-image" alt="">
+
+                    <h3 class="service-title">
+                        Estética
+                    </h3>
+
+                    <span class="service-description">
+                        Instalação e funilaria de kits aerodinâmicos
+                    </span>
+
+                    <div class="service-price">
+                        <h4>Valor à combinar</h4>
                         <button class="btn-default">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </button>
@@ -163,8 +217,77 @@
                 </div>
             </div>
         </section>
+
+        <!--Aqui é a terceira parte do site-->
+        <section id="projects">
+            <img src="src/images/garage.png" id="projects_image" alt="">
+
+            <div id="projects_content">
+                <h2 class="section-title">
+                    Projetos
+                </h2>
+                <h4 class="section-subtitle">
+                    Principais projetos feitos
+                </h4>
+
+                <div id="project">
+
+                    <!--Projeto 1-->
+                    <div class="car">
+                        <img src="src/images/project1.png" class="car-image" alt="">
+                        <div class="car-content">
+                            <h3 class="car-name">Nissan 180sx (Ryan Cooper)</h3>
+                            <div>
+                                <p>
+                                    Projeto low cost com foco para track day
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Projeto 2-->
+                    <div class="car">
+                        <img src="src/images/project2.png" class="car-image" alt="">
+                        <div class="car-content">
+                            <h3 class="car-name">BMW M3 GTR (Clarence Callahan)</h3>
+                            <div>
+                                <p>
+                                    Carro feito para pista, mas otimizado seu desempenho nas ruas
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="btn-default">
+                        Ver mais projetos
+                    </button>
+                </div>
+            </div>
+        </section>
     </main>
 
+    <footer>
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2024 JGabrielBoss
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="https://github.com/JGabrielBoss" target="_blank">
+                    <i class="fa-brands fa-github">
+                    </i>
+                </a>
+                <a href="https://www.instagram.com/j_gabrielboss" target="_blank">
+                    <i class="fa-brands fa-instagram">
+                    </i>
+                </a>
+                <a href="https://www.linkedin.com/in/gabriel-alves-2003boss/" target="_blank">
+                    <i class="fa-brands fa-linkedin">
+                    </i>
+                </a>
+            </div>
+        </div>
+    </footer>
     <!--Importando o Javascript-->
     <script src="src/javascript/script.js"></script>
 </body>

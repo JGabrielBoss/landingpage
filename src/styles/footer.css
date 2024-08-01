@@ -1,0 +1,22 @@
+footer {
+    background-color: white;
+}
+
+#footer_items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 8% 24px 8%;
+}
+
+#copyright {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 600px) {
+    #footer_items {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

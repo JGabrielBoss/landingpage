@@ -1,6 +1,10 @@
 header {
     width: 100%;
     padding: 28px 8%;
+    position: sticky;
+    top: 0;
+    background-color: rgb(235, 235, 235);
+    z-index: 3;
 }
 
 #navbar {
