@@ -6,6 +6,13 @@
 @import url('projects.css');
 @import url('footer.css');
 
+:root{
+    --color-primary-1: rgb(235, 235, 235);
+    --color-primary-2: white;
+    --color-secondary: darkred;
+    --color-text: black;
+}
+
 * {
     font-family: "Gupter", serif;
     font-weight: 400;
@@ -15,11 +22,27 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgb(199, 199, 199);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: black;
+}
+
 body{
-    background-color: rgb(235, 235, 235);
+    background-color: var(--color-primary-1);
 }
 section {
-    padding: 28px 8%;
+    padding: 50px 8%;
 }
 
 .btn-default {
@@ -27,7 +50,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: darkred;
+    background-color: var(--color-secondary);
     color: white;
     border-radius: 5px;
     padding: 10px 14px;
@@ -55,7 +78,7 @@ section {
     font-size: 1.25rem;
     border-radius: 5px;
     text-decoration: none;
-    color: #1d1d1d;
+    color: var(--color-text);
     background-color: white;
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
     transition: box-shadow .1s ease;
@@ -68,12 +91,13 @@ section {
 /*Aqui é da minha seção services*/
 
 .section-title {
-    color: darkred;
+    color: var(--color-secondary);
     font-size: 1.563rem;
     font-weight: bolder;
 }
 
 .section-subtitle {
+    color: black;
     font-weight: bolder;
     font-size: 2.1875rem;
 }

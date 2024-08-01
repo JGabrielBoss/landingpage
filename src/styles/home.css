@@ -15,11 +15,11 @@
 #cta .title{
     font-size: 4rem;
     font-weight: bold;
-    color: #1d1d1d;
+    color: var(--color-text);
 }
 #cta .title span{
     font-weight: bolder;
-    color: darkred;
+    color: var(--color-secondary);
 }
 
 #cta .description {
@@ -39,7 +39,7 @@
     display: flex;
     gap: 8px;
     align-items: center;
-    color: #1d1d1d;
+    color: var(--color-text);
     padding: 8px 14px;
     font-weight: 700;
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
@@ -70,9 +70,9 @@
 }
 
 .shape {
-    background-color: rgb(255, 255, 255);
+    background-color: var(--color-primary-2);
     width: 50%;
-    height: 85%;
+    height: 500px;
     position: absolute;
     border-radius: 20% 0% 0% 20%;
     top: 0;

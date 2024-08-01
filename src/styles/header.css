@@ -1,9 +1,9 @@
 header {
     width: 100%;
-    padding: 28px 8%;
+    padding: 10px 8%;
     position: sticky;
     top: 0;
-    background-color: rgb(235, 235, 235);
+    background-color: var(--color-primary-1);
     z-index: 3;
 }
 
@@ -27,7 +27,7 @@ header {
 
 .nav-item a {
     text-decoration: none;
-    color: darkred;
+    color: var(--color-secondary);
     font-weight: bold;
 }
 
