@@ -2,6 +2,17 @@ footer {
     background-color: var(--color-primary-2);
 }
 
+/* Modo escuro*/
+
+body.dark-mode footer {
+    background-color: rgb(73, 73, 73);
+}
+
+body.dark-mode footer span {
+    color: white;
+}
+/* Modo escuro*/
+
 #footer_items {
     display: flex;
     align-items: center;

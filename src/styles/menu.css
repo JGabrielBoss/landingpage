@@ -26,6 +26,11 @@
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
 }
 
+/*Modo escuro*/
+body.dark-mode .service {
+    background-color: rgb(73, 73, 73);
+}
+
 .service img {
     width: 100%;
     border-radius: 5px;
@@ -36,10 +41,20 @@
     text-align: center;
 }
 
+/*Modo escuro*/
+body.dark-mode .service h3 {
+    color: white;
+}
+
 .service-description {
     color: var(--color-text);
     text-align: center;
     font-weight: bold;
+}
+
+/*Modo escuro*/
+body.dark-mode .service-description {
+    color: white;
 }
 
 .service-price {
@@ -50,6 +65,11 @@
 
 .service-price h4{
     font-weight: bolder;
+}
+
+/*Modo escuro*/
+body.dark-mode .service-price {
+    color: white;
 }
 
 @media screen and (max-width: 1170px){

@@ -12,14 +12,25 @@
     margin-top: 5%;
 }
 
-#cta .title{
+#cta .title {
     font-size: 4rem;
     font-weight: bold;
     color: var(--color-text);
 }
+
+/*Modo escuro do titulo do cta*/ 
+body.dark-mode #cta .title {
+    color: white;
+}
+
 #cta .title span{
     font-weight: bolder;
     color: var(--color-secondary);
+}
+
+/*Modo escuro do span do CTA*/ 
+body.dark-mode #cta .title span{
+    color: rgb(179, 0, 0);
 }
 
 #cta .description {
@@ -44,6 +55,11 @@
     font-weight: 700;
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
+}
+
+/*Modo escuro da imagem do telefone*/
+body.dark-mode #phone_button {
+    color: white;
 }
 
 #phone_button button{
@@ -72,12 +88,17 @@
 .shape {
     background-color: var(--color-primary-2);
     width: 50%;
-    height: 500px;
+    height: 90%;
     position: absolute;
     border-radius: 20% 0% 0% 20%;
     top: 0;
     right: 0;
     z-index: 1;
+}
+
+/*Modo escuro da forma geometrica na logo*/
+body.dark-mode .shape {
+    background-color: rgb(73, 73, 73);
 }
 
 @media screen and (max-width: 1170px) {

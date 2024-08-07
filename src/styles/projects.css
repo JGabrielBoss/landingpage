@@ -35,6 +35,11 @@
     overflow: hidden;
 }
 
+/*Modo escuro*/
+body.dark-mode .car{
+    background-color: rgb(73, 73, 73);
+}
+
 .car-image{
     width: 25%;
     border-radius: 5px;
@@ -49,6 +54,11 @@
 
 .car-name {
     font-weight: bold;
+}
+
+/*Modo escuro*/
+body.dark-mode .car-name{
+    color: white;
 }
 
 @media screen and (max-width: 1170px) {

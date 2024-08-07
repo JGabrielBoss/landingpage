@@ -36,6 +36,15 @@ header {
     border-bottom: 3px solid rgb(78, 0, 0);
 }
 
+body.dark-mode .nav-item.active a {
+    color: white;
+    border-bottom: 3px solid rgb(148, 0, 0);
+}
+
+body.dark-mode i{
+    color: white;
+}
+
 /* Aqui garante que a lista mobile não apareça na versão de PC*/
 #mobile_btn {
     display: none;

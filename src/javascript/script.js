@@ -6,6 +6,10 @@ $(document).ready(function () {
         $('#mobile_btn').find('i').toggleClass('fa-x');
     });
 
+    $('#night_mode').on('click', function () {
+        $('body').toggleClass('dark-mode');
+    });
+
     //Animações do site
     const sections = $('section');
     const navItems = $('.nav-item');
@@ -86,6 +90,7 @@ $(document).ready(function () {
         duration: 2000,
         distance: '20%'
     });
+
     ScrollReveal().reveal('.section-subtitle', {
         duration: 2000,
         distance: '20%'
