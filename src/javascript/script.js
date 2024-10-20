@@ -49,55 +49,55 @@ $(document).ready(function () {
     ScrollReveal().reveal('.home-logo', {
         origin: 'right',
         duration: 2000,
-        distance: '20%'
+        distance: '5%'
     });
 
     ScrollReveal().reveal('.shape', {
         origin: 'right',
         duration: 2000,
-        distance: '20%'
+        distance: '5%'
     });
 
     //Animação do CTA
     ScrollReveal().reveal('#cta', {
         origin: 'left',
         duration: 2000,
-        distance: '20%'
+        distance: '5%'
     });
 
     //Animação dos serviços
     ScrollReveal().reveal('.service', {
         origin: 'left',
         duration: 2000,
-        distance: '20%'
+        distance: '5%'
     });
 
     //Animação dos projetos
     ScrollReveal().reveal('.car', {
         origin: 'right',
         duration: 2000,
-        distance: '20%'
+        distance: '5%'
     });
 
     ScrollReveal().reveal('.projects-image', {
         origin: 'left',
         duration: 2000,
-        distance: '20%'
+        distance: '5%'
     });
 
     //Animação do titulo e subtitulo
     ScrollReveal().reveal('.section-title', {
         duration: 2000,
-        distance: '20%'
+        distance: '5%'
     });
 
     ScrollReveal().reveal('.section-subtitle', {
         duration: 2000,
-        distance: '20%'
+        distance: '5%'
     });
 
     ScrollReveal().reveal('.project-content', {
         duration: 2000,
-        distance: '20%'
+        distance: '5%'
     });
 });

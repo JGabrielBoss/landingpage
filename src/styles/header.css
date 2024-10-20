@@ -36,11 +36,19 @@ header {
     border-bottom: 3px solid rgb(78, 0, 0);
 }
 
+.div-dark {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/*Modo escuro dos itens da barra de navegação*/
 body.dark-mode .nav-item.active a {
     color: white;
     border-bottom: 3px solid rgb(148, 0, 0);
 }
 
+/*Modo escuro do botão do dark mode*/
 body.dark-mode i{
     color: white;
 }
